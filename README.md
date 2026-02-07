@@ -12,7 +12,7 @@ This setup listens to Meshcore packets arriving via an MQTT broker (e.g. [letsme
 ## Prerequisites
 
 - Home Assistant with the **MQTT integration** configured and a working MQTT broker (e.g. Mosquitto)
-- Meshcore packets being published to your broker (e.g. bridged from letsmesh.net broker 3)
+- Meshcore packets being published to your broker via MQTT.
 - For the dashboard: [custom:auto-entities](https://github.com/thomasloven/lovelace-auto-entities) and [custom:apexcharts-card](https://github.com/RomRider/apexcharts-card) installed via HACS
 
 ## Components
